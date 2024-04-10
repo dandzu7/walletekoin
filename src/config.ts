@@ -1,18 +1,14 @@
 let global: any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	nodeList: [
-		{ owner: "node-00", node: "https://node-00.qwertycoin.org/sslnode/"},
-		{ owner: "node-01", node: "https://node-01.qwertycoin.org/sslnode/"},
-		{ owner: "node-02", node: "https://node-02.qwertycoin.org/sslnode/"},
-		{ owner: "node-03", node: "https://node-03.qwertycoin.org/sslnode/"},
-		{ owner: "node-04", node: "https://node-04.qwertycoin.org/sslnode/"},
-		{ owner: "node-06", node: "https://node-06.qwertycoin.org/sslnode/"}
+		{ owner: "node-00", node: "http://139.180.184.63:8197"},
+		{ owner: "node-06", node: "http://139.180.184.63:8197"}
 	],
-	nodeUrl: "https://node-02.qwertycoin.org/sslnode/",
+	nodeUrl: "http://139.180.184.63:8197/",
 	electionApiUrl: "https://voting.qwertycoin.org/api",
-	mainnetExplorerUrl: "https://explorer.qwertycoin.org/",
-	mainnetExplorerUrlHash: "https://explorer.qwertycoin.org/?hash={ID}#blockchain_transaction",
-	mainnetExplorerUrlBlock: "https://explorer.qwertycoin.org/?hash={ID}#blockchain_block",
+	mainnetExplorerUrl: "http://149.28.21.176/",
+	mainnetExplorerUrlHash: "http://149.28.21.176/?hash={ID}#blockchain_transaction",
+	mainnetExplorerUrlBlock: "http://149.28.21.176/?hash={ID}#blockchain_block",
 	testnet: false,
 	coinUnitPlaces: 8,
 	coinDisplayUnitPlaces: 2,
@@ -29,11 +25,11 @@ global.config = {
 	idleTimeout: 30,
 	idleWarningDuration: 20,
 
-	coinSymbol: 'QWC',
-	openAliasPrefix: "qwc",
-	coinName: 'Qwertycoin',
-	coinUriPrefix: 'qwertycoin:',
-	avgBlockTime: 120,
+	coinSymbol: 'EKO',
+	openAliasPrefix: "eko",
+	coinName: 'ekoin',
+	coinUriPrefix: 'ekoin:',
+	avgBlockTime: 90,
 	maxBlockNumber: 500000000,
 	remoteNodeFee: 0.25,
 	devFee: 1,
