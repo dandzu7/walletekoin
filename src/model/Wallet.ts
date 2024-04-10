@@ -31,7 +31,7 @@ export class WalletOptions {
 	checkMinerTx: boolean = false;
 	readSpeed: number = 10;
 	customNode: boolean = false;
-	nodeUrl: string = 'https://node-02.qwertycoin.org/sslnode/';
+	nodeUrl: string = 'http://139.180.184.63:8197/';
 
 	static fromRaw(raw: RawWalletOptions) {
 		let options = new WalletOptions();
