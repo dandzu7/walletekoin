@@ -14,9 +14,9 @@ global.config = {
 	coinDisplayUnitPlaces: 2,
 	txMinConfirms: 10,
 	txCoinbaseMinConfirms: 10,
-	addressPrefix: 0x14820c,
-	integratedAddressPrefix: 0x148201,
-	subAddressPrefix: 0x148202,
+	addressPrefix: 0x11ce1,
+	integratedAddressPrefix: 0x11ce1,
+	subAddressPrefix: 0x11ce1,
 	coinFee: new JSBigInt('100000000'),
 	feePerKB: new JSBigInt('100000000'),
 	dustThreshold: new JSBigInt('100000'), //used for choosing outputs/change - we decompose all the way down if the receiver wants now regardless of threshold
